@@ -36,7 +36,7 @@
   	```
 
 
-### 配置友盟key和设置分享平台（android配置友盟key请参考友盟官方文档）
+#### 配置友盟key和设置分享平台（android配置友盟key请参考友盟官方文档）
 
 ```javascript
 /**
@@ -51,7 +51,7 @@
 ```
 
 
-### 分享到那个平台
+#### 分享到那个平台
 
 ```javascript
 /**
@@ -75,7 +75,7 @@
 ```
 
 
-### 如何使用
+#### 如何使用
 
 ```javascript
 import RNShareUtils from 'react-native-share-utils';
