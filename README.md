@@ -37,6 +37,7 @@
 
 
 ### 配置友盟key和设置分享平台（android配置友盟key请参考友盟官方文档）
+
 ```javascript
 /**
      * 用于配置友盟分享的信息（微信、QQ等三方平台）
@@ -51,6 +52,7 @@
 
 
 ### 分享到那个平台
+
 ```javascript
 /**
      *  分享到社交平台
@@ -74,14 +76,8 @@
 
 
 ### 如何使用
+
 ```javascript
 import RNShareUtils from 'react-native-share-utils';
-
-ShareUtils.share(
-                'title',
-                'description',
-                '分享的url',
-                '分享图片的url',
-                '平台'
-            );
+ShareUtils.share('title','description','分享的url','分享图片的url','平台');
 ```
