@@ -55,9 +55,9 @@ import RNShareUtils from 'react-native-share-utils';
 
 #### 配置分享logo图标
 
-iOS平台，需引入share.png文件，用于分享操作时logo显示;
+iOS端需引入share.png文件即可;
 
-Android配置logo如下配置：
+Android端要在build.gradle配置文件中加入如下配置;
 ```java
 packagingOptions {
         exclude 'src/main/res/mipmap-mdpi/share.png'
