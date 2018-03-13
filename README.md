@@ -55,7 +55,7 @@ import ShareUtils from 'react-native-share-utils';
 
 #### 配置logo图标
 
-iOS只需在项目引入share.png文件即可，Android则要在build.gradle配置文件中做如下配置
+iOS只需在项目导入share.png文件即可，Android不仅需要在主项目res/mipmap-mdpi目录下导入share.png文件，还要在build.gradle配置文件中做如下配置
 ```java
 packagingOptions {
         exclude 'src/main/res/mipmap-mdpi/share.png'
