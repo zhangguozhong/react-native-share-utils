@@ -53,7 +53,7 @@ import RNShareUtils from 'react-native-share-utils';
 ```
 
 
-### 配置分享logo图标
+#### logo图标
 
 iOS端需引入share.png文件即可，Android端要在build.gradle配置文件中加入如下配置
 ```java
