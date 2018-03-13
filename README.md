@@ -34,7 +34,7 @@
   	```
       compile project(':react-native-share-utils')
   	```
-<
+
 
 #### 配置友盟key和设置分享平台（android配置友盟key请参考友盟官方文档）
 
@@ -49,7 +49,7 @@
         ShareUtils.setPlatform('平台',key,appSecret,'http://mobile.umeng.com/social');
     }
 ```
-<
+
 
 #### 分享到那个平台
 
@@ -73,7 +73,7 @@
         })
     }
 ```
-<
+
 
 #### 如何使用
 
