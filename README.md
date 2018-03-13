@@ -16,8 +16,9 @@
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-share-utils` and add `RNShareUtils.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNShareUtils.a`、`UMSorcialCore.framework`、`UMSorcialNetwork.framework` to your project's `Build Phases` ➜ `Link Binary With Libraries` and Add `$(SRCROOT)/../node_modules/react-native-share-utils/ios/Core/3rd` to your project's `Build Settings` ➜ `Framework Search Paths`
-4. Run your project (`Cmd+R`)<
+3. In XCode, in the project navigator, select your project. Add `libRNShareUtils.a`、`UMSorcialCore.framework`、`UMSorcialNetwork.framework`、`CoreTelephony.framework`、`libz.tbd`、`libsqlite3.tbd`、`SystemConfiguration.framework` to your project's `Build Phases` ➜ `Link Binary With Libraries` 
+4. Add `$(SRCROOT)/../node_modules/react-native-share-utils/ios/Core/3rd` to your project's `Build Settings` ➜ `Framework Search Paths`
+5. Run your project (`Cmd+R`)<
 
 #### Android
 
@@ -51,6 +52,9 @@ import RNShareUtils from 'react-native-share-utils';
     }
 ```
 
+
+#### 配置分享logo图标
+`$ iOS和Android平台，需引入share.png文件，用于分享logo`
 
 #### 分享到那个平台
 
