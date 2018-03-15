@@ -35,8 +35,23 @@
       compile project(':react-native-share-utils')
   	```
 
+#### 设置分享平台
 
-#### 配置友盟key和设置分享平台（android配置友盟key请参考友盟官方文档）
+```javascript
+/***
+     * 设置平台账号
+     * @param type     类别0,新浪 1,微信 2,朋友圈  4,qq  5,Qzone    12,短信
+     * @param appkey   key
+     * @param appSecret secret
+     * @param redirectURL   redirectURL
+     */
+    static setPlatform(type: number, appkey: string, appSecret: string, redirectURL: string) {
+        RNShareUtils.setPlatform(type, appkey, appSecret, redirectURL);
+    }
+```
+
+
+#### iOS配置友盟key（android请参考友盟官方文档）
 
 ```javascript
 import ShareUtils from 'react-native-share-utils';
